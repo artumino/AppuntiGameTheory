@@ -1,0 +1,39 @@
+% \usepackage[usenames,dvipsnames]{pstricks}
+% \usepackage{epsfig}
+% \usepackage{pst-grad} % For gradients
+% \usepackage{pst-plot} % For axes
+% \usepackage[space]{grffile} % For spaces in paths
+% \usepackage{etoolbox} % For spaces in paths
+% \makeatletter % For spaces in paths
+% \patchcmd\Gread@eps{\@inputcheck#1 }{\@inputcheck"#1"\relax}{}{}
+% \makeatother
+% % User Packages:
+% 
+% 
+
+\psscalebox{1.0 1.0} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-2.93125)(8.04,2.93125)
+\psdots[linecolor=black, dotsize=0.4](4.4,2.3536522)
+\psdots[linecolor=black, dotsize=0.4](2.0,-0.84634763)
+\psdots[linecolor=black, dotsize=0.4](6.4,-0.84634763)
+\psline[linecolor=black, linewidth=0.04](4.4,2.3536522)(2.0,-0.84634763)
+\psline[linecolor=black, linewidth=0.04](4.4,2.3536522)(6.4,-0.84634763)
+\psline[linecolor=black, linewidth=0.04](6.4,-0.84634763)(5.2,-2.4463477)
+\psline[linecolor=black, linewidth=0.04](6.4,-0.84634763)(7.6,-2.4463477)
+\psline[linecolor=black, linewidth=0.04](2.0,-0.84634763)(0.4,-2.4463477)(2.0,-0.84634763)(2.8,-2.4463477)
+\rput[bl](0.4,-1.2463477){a}
+\rput[bl](2.8,-1.6463476){b}
+\rput[bl](5.6,-1.2463477){c}
+\rput[bl](7.6,-1.6463476){d}
+\rput[bl](6.8,-0.84634763){2}
+\rput[bl](5.6,1.1536523){B}
+\rput[bl](2.8,0.75365233){T}
+\rput[bl](1.6,-0.44634765){2}
+\rput[bl](4.4,2.7536523){1}
+\rput[bl](0.0,-2.8463476){(1,1)}
+\rput[bl](2.4,-2.8463476){(2,1)}
+\rput[bl](4.8,-2.8463476){(3,1)}
+\rput[bl](7.2,-2.8463476){(2,3)}
+\end{pspicture}
+}
